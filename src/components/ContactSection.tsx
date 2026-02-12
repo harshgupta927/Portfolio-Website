@@ -9,9 +9,12 @@ const ContactSection = () => {
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
-    // Open mailto as fallback
-    window.location.href = `mailto:harshgupta9029@gmail.com?subject=Portfolio Contact from ${form.name}&body=${form.message}`;
     setSent(true);
+    const subject = encodeURIComponent(`Portfolio Contact from ${form.name}`);
+    const body = encodeURIComponent(`From: ${form.name} <${form.email}>\n\n${form.message}`);
+    // Open mailto as fallback
+    window.location.href = `mailto:harshgupta9029@gmail.com?subject=${subject}&body=${body}`;
+    setForm({ name: "", email: "", message: "" });
   };
 
   return (
@@ -34,8 +37,8 @@ const ContactSection = () => {
             <div className="space-y-4">
               <ContactInfo icon={<Mail size={18} />} label="harshgupta9029@gmail.com" href="mailto:harshgupta9029@gmail.com" />
               <ContactInfo icon={<MapPin size={18} />} label="Bengaluru, Karnataka" />
-              <ContactInfo icon={<Linkedin size={18} />} label="LinkedIn" href="https://linkedin.com/in/" />
-              <ContactInfo icon={<Github size={18} />} label="GitHub" href="https://github.com/" />
+              <ContactInfo icon={<Linkedin size={18} />} label="LinkedIn" href="https://www.linkedin.com/in/harshgupta7497/" />
+              <ContactInfo icon={<Github size={18} />} label="GitHub" href="https://github.com/harshgupta927" />
             </div>
           </motion.div>
 
