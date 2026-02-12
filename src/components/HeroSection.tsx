@@ -63,8 +63,8 @@ const HeroSection = () => {
           </a>
 
           <div className="flex items-center gap-3">
-            <SocialIcon href="https://linkedin.com/in/" icon={<Linkedin size={20} />} />
-            <SocialIcon href="https://github.com/" icon={<Github size={20} />} />
+            <SocialIcon href="https://www.linkedin.com/in/harshgupta7497/" icon={<Linkedin size={20} />} />
+            <SocialIcon href="https://github.com/harshgupta927" icon={<Github size={20} />} />
             <SocialIcon href="mailto:harshgupta9029@gmail.com" icon={<Mail size={20} />} />
           </div>
         </motion.div>
