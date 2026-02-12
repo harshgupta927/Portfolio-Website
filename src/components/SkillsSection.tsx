@@ -4,19 +4,62 @@ import { SectionTitle } from "./AboutSection";
 const categories = [
   {
     title: "Programming",
-    skills: ["Python", "Java", "C", "JavaScript", "SQL"],
+    skills: ["Python", "Java", "C", "JavaScript", "TypeScript", "SQL", "Bash", "OOP", "DSA"],
   },
   {
     title: "AI / ML",
-    skills: ["TensorFlow", "PyTorch", "Keras", "Scikit-Learn", "OpenCV", "NLP", "CNN", "RAG", "LLMs"],
+    skills: [
+"TensorFlow",
+"PyTorch",
+"Keras",
+"Scikit-Learn",
+"CNN",
+"LSTM",
+"Time Series Forecasting",
+"ARIMA",
+"Prophet",
+"Isolation Forest",
+"NLP",
+"RAG",
+"LLMs",
+"Feature Engineering",
+"Model Evaluation"
+],
   },
   {
     title: "Data Science",
-    skills: ["Pandas", "NumPy", "SciPy", "Matplotlib", "Seaborn", "EDA"],
+    skills: [
+"Pandas",
+"NumPy",
+"SciPy",
+"Matplotlib",
+"Seaborn",
+"EDA",
+"Data Cleaning",
+"Data Visualization",
+"Statistical Analysis",
+"Feature Selection",
+"Model Evaluation"
+],
   },
   {
     title: "Web & Tools",
-    skills: ["Flask", "HTML/CSS", "React", "MongoDB", "AWS S3", "CloudFront", "Streamlit", "Git"],
+    skills: [
+"Flask",
+"Django",
+"Django REST Framework",
+"React",
+"Tailwind CSS",
+"HTML/CSS",
+"MySQL",
+"MongoDB",
+"REST APIs",
+"Streamlit",
+"AWS S3",
+"CloudFront",
+"Git",
+"Docker"
+],
   },
 ];
 
