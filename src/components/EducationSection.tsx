@@ -21,7 +21,7 @@ const EducationSection = () => (
           <h3 className="font-bold text-foreground">B.Tech in Computer Science & Engineering</h3>
           <p className="text-primary font-mono text-sm mt-1">Dayananda Sagar University, Bengaluru</p>
           <div className="flex items-center gap-4 mt-3 text-sm text-muted-foreground">
-            <span>CGPA: <span className="text-foreground font-semibold">8.16</span></span>
+            <span>CGPA: <span className="text-foreground font-semibold">8.32</span></span>
             <span>2022 – 2026</span>
           </div>
         </motion.div>
